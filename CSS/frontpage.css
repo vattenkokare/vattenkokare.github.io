@@ -1,0 +1,163 @@
+
+.sidebar{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+
+    position: fixed;
+    top:0%;
+    bottom: 0%;
+    left:0;
+    right: 85%;
+
+    background-color: rgb(19, 19, 19);
+
+    padding:2px;
+
+}
+
+.button{
+    padding:2px;
+    border: white solid 1px;
+    border-radius: 5px;
+
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.hero {
+    background-image: url(21553.png);
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h2 {
+    color: #c4c4c4;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 75px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 130px;
+
+}
+
+.hero p{
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+    font-size: 20px;
+    margin: 0 0 20px 0;
+
+}
+
+.hero p2{
+    margin-top: 160px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(34, 34, 34);
+
+    margin: 0;
+    margin-left:15%;
+    margin-right:15%;
+    color: white;
+}
+
+.startpage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.rightside{
+    position: fixed;
+    top:0%;
+    bottom: 0%;
+    left:85%;
+    right: 0;
+
+    background-color: rgb(19, 19, 19);
+}
+
+.textpart{
+    margin: 8em;
+}
+
+.start{
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 600px) {
+    .rightside {
+        display: none;
+    }
+    .sidebar {
+        display: none;
+    }
+    .textpart {
+        width:100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main {
+        margin-left:0%;
+        margin-right:0%;
+
+        overflow:hidden;
+    }
+
+    p{
+        font-size: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .texthead1{
+        margin: 0;
+        margin-bottom: 2em;
+        margin-top: 1em;
+    }
+    .texthead{
+        margin: 0;
+        margin-bottom: 2em;
+        margin-top: 5em;
+    }
+
+    .hero h2{
+        font-size: 5em;
+    }
+    .hero{
+        height: 812px;
+    }
+
+    
+    
+      
+}
+  
