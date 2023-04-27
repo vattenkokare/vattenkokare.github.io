@@ -133,18 +133,18 @@
     }
 
     p{
-        font-size: 2em;
+        font-size: 1.3em;
         margin-left: 1em;
         margin-right: 1em;
     }
 
     .texthead1{
-        margin: 0;
+        margin: 1;
         margin-bottom: 2em;
         margin-top: 1em;
     }
     .texthead{
-        margin: 0;
+        margin: 1;
         margin-bottom: 2em;
         margin-top: 5em;
     }
