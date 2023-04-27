@@ -133,7 +133,7 @@
     }
 
     p{
-        font-size: 1.3em;
+        font-size: 1.1em;
         margin-left: 1em;
         margin-right: 1em;
     }
@@ -142,11 +142,13 @@
         margin: 1;
         margin-bottom: 2em;
         margin-top: 1em;
+        font-size: 1.4em;
     }
     .texthead{
         margin: 1;
         margin-bottom: 2em;
         margin-top: 5em;
+        font-size: 1.4em;
     }
 
     .hero h2{
